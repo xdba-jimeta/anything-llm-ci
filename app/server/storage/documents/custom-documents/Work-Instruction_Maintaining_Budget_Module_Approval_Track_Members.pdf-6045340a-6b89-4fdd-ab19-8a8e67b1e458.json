@@ -1,0 +1,13 @@
+{
+    "id": "6045340a-6b89-4fdd-ab19-8a8e67b1e458",
+    "url": "file:///app/collector/hotdir/Work Instruction_Maintaining_Budget_Module_Approval_Track_Members.pdf",
+    "title": "Work Instruction_Maintaining_Budget_Module_Approval_Track_Members.pdf",
+    "docAuthor": "Microsoft Word",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:40:55 PM",
+    "wordCount": 261,
+    "pageContent": "1   |   P a g e  Work Instruction  Purchasing Approvers  Author: Jessica Dover, Senior Technologist, CampusWorks Inc.  First Publication Date: 08/10/2023  PURPOSE  This work instruction covers   how to update Purchasing Module approvers as needed.  REQUIREMENTS  The   intended approvers must be added to the appropriate worksheet as a Budget Officer from the Budget admin login  prior to this update being performed. It is recommended that previous users be removed from the Budget Officers for  worksheets during this step.  PURCHASING MODULE SETUP  1.   Navigate to the Purchasing Module Setup window (Figure 1) and click on the Approvals tab, then click on Build  approval tracks and assign approvers to them.  Figure 1   –   Purchasing Module Setup window  2.   A new window will open called Approval Track (Figure 2). Identify the account in need of updating and click  Maintain Track Members... 2   |   P a g e  Figure 2   –   Approval Track  3.   A new window will open (Figure 3) to display the available users and current users assigned to the account. Click  on the appropriate user and click Add from the left column. Click on the appropriate user to remove and click  Remove from the right column. Cl ick OK.  Figure 3   –   Approval Track Members  END OF WORK   INSTRUCTIONS",
+    "token_count_estimate": 302
+}

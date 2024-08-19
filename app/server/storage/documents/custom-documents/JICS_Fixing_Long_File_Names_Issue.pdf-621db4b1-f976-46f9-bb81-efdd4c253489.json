@@ -1,0 +1,13 @@
+{
+    "id": "621db4b1-f976-46f9-bb81-efdd4c253489",
+    "url": "file:///app/collector/hotdir/JICS_Fixing_Long_File_Names_Issue.pdf",
+    "title": "JICS_Fixing_Long_File_Names_Issue.pdf",
+    "docAuthor": "Microsoft® Word for Microsoft 365",
+    "description": "Using the Mass Add tool in Jenzabar.  A Step by Step for Assigning eBlast Actions to Constituents",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:53:37 PM",
+    "wordCount": 476,
+    "pageContent": "Work Instruction  Fixing Long File Names Issue   –   Student   Unable to Upload Files  PURPOSE  Occasionally, a stude nt is unable to use the MoxieManager tool to upload files into JICS (MyRCC)  because   one o r more files with very long names exists in their Mox ieManager folder. This prevents a  student from being able to complete assign ments where file uploads are   required.  To date, we have no idea how these long file names get created in the first place . However,   we must  correct this issue every time it happens. Usually, we are alerted that a student is ha ving trouble, and are  able to correct the p roblem very quickly.  CampusWorks developed a standard procedure for correcting   this problem and it is documented herein.  The process is partially automated and partially manual. The long fi le names are identified   automatically  by a batch process that create s a listing of   the long named files. This is then available to the technician  assigned to correcting the problem. At which point, the long file names are corrected by rena ming them  manuall y.  INSTRUCTIONS  1.   Login to the JICS (MyRCC) server using remote desktop.  2.   Navi gate to the following folder,   “ D : \\ Program Files \\ Jenzabar \\ ICS.NET \\ ICSFileServer \\ moxiemanager ” .  3.   Locate the Long NameFiles.txt   file . Open the file. 4.   You wi ll notice that the longest named files   occur at the top of the list.   In the above illustration   we  see a long file name with many spaces in the file name. This is one th at   needs   to be renamed  (removing the spaces).  5.   Open Windows File Explorer .  6.   Copy the path portion of the long file name so that you can paste it into the Windows Explorer   path  edit box.   The path portion ends at the end of the GUID folder name   as sh own in the following  ill ustration.  7.   Once you h ave pasted   the path you will be in the correct folder   to actually find the long named file.  Identify the file , select it, and rename it.  8.   Go to the next item in the long named file list and repeat   steps 6 and 7 until   no long   named files  re main.  END OF WORK   INSTRUCTIONS",
+    "token_count_estimate": 531
+}

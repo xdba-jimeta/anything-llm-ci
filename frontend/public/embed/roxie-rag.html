@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page with Logos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header, .footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .logo-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo-section img {
+            max-width: 150px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to My Web Page</h1>
+    </header>
+
+    <section class="logo-section">
+        <img src="logo1.png" alt="Logo 1">
+        <img src="logo2.png" alt="Logo 2">
+        <img src="logo3.png" alt="Logo 3">
+    </section>
+
+    <main class="main-content">
+        <h2>Main Content</h2>
+        <p>This is where the main content of the page goes.</p>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Web Page</p>
+    </footer>
+
+    <script>
+        // Your JavaScript code goes here
+<!--
+An example of a script tag embed
+REQUIRED data attributes:
+  data-embed-id // The unique id of your embed with its default settings
+  data-base-api-url // The URL of your anythingLLM instance backend
+-->
+  data-embed-id="5fc05aaf-2f2c-4c84-87a3-367a4692c1ee"
+  data-base-api-url="http://172.21.12.138:3001/api/embed"
+  src="http://172.21.12.138:3000/embed/anythingllm-chat-widget.min.js"
+  console.log("Page loaded successfully!");
+</body>
+</html>
+

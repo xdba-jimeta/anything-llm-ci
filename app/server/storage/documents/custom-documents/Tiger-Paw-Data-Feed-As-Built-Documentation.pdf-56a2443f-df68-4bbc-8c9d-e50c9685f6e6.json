@@ -1,0 +1,13 @@
+{
+    "id": "56a2443f-df68-4bbc-8c9d-e50c9685f6e6",
+    "url": "file:///app/collector/hotdir/Tiger Paw Data Feed - As Built Documentation.pdf",
+    "title": "Tiger Paw Data Feed - As Built Documentation.pdf",
+    "docAuthor": "Microsoft® Word for Microsoft 365",
+    "description": "Using the Mass Add tool in Jenzabar.  A Step by Step for Assigning eBlast Actions to Constituents",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:53:39 PM",
+    "wordCount": 301,
+    "pageContent": "Setup Documentation  Tiger Paw   Data Feed  Version   1. 1  Created: 11/14/2019  Revised :  PURPOSE  The purpose of   the Tiger Paw (Pharos 360) data feed is to provide ERP system data to the Pharos 360  system which is hosted outside of the RCC domain. There is no   live database access. This obligates us to  deliver a nightly data feed to the Phaors 360 system.  AS BUILT INFORMATION  All of the SQL code and scheduled tasks reside on the database server, JZROX - SQL1. C: \\ Pharos folder.  All of the SQL queries are in   the “sqlfiles” folder. These are called by the SQLCommand tool. The data extracts are stored in the “datafiles” folder prior to being sent via SFTP to the Pharos server.  There are 2 scheduled tasks. The first one Extracts the data. The second one   transfers the data via  SFTP. Both scheduled tasks make calls to DOS Batch command files. Routine configuration of the data feed (year and term preferences) is to be performed by staff members  utilizing the SSRS ACTION report provided. Roxbury previous ly determined that they would rather  configure Tiger Paw separately from the Jenzabar Default year and Term. So this process will be  required until such a time that Roxbury decides they want to follow the Reg_Config default year and  term model.  This data extract and transfer is pretty much an industry standard architecture. It could be much more  elegant, especially if Pharos provided a data reader architecture. But it really isn’t necessary and would  only result in increased costs for subscribi ng to the service.  END OF   AS BUILT DOCUMENTATION",
+    "token_count_estimate": 367
+}

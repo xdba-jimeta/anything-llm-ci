@@ -1,0 +1,13 @@
+{
+    "id": "a753378b-65a8-4142-8f1a-5da55cbcc986",
+    "url": "file:///app/collector/hotdir/JAM Session _420 Create Student Update.pdf",
+    "title": "JAM Session _420 Create Student Update.pdf",
+    "docAuthor": "Acrobat PDFMaker 11 for PowerPoint",
+    "description": "Slide 1",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:58:58 PM",
+    "wordCount": 354,
+    "pageContent": "© 2015 Jenzabar, Inc.  Presented by Debbie Parrish  Jenzabar  May 30, 2015  #420 – Create Student Update  Jenzabar’s Annual Meeting  May 27 - 30, 2015 Gaylord Opryland Resort & Convention Center  Nashville, TN © 2015 Jenzabar, Inc.     Configure Optional Student Data Elements for Transfer     Create Student Update  Agenda © 2015 Jenzabar, Inc.  Needs     Ability to create multiple configurations     Ability to support all custom data field types used in PowerFAIDS*     Ability to create translations for mapping EX codes to PowerFAIDS codes     Ability to use Rules Based Update (RBU) to select the EX data to transfer  *PowerFAIDS is a registered trademark of The College Board  Configure Optional Student Data Elements for Transfer © 2015 Jenzabar, Inc.  Current Window     Fixed     Custom © 2015 Jenzabar, Inc.  Configuration © 2015 Jenzabar, Inc.  Custom Configuration © 2015 Jenzabar, Inc.  Proposed Window © 2015 Jenzabar, Inc.  Match Records © 2015 Jenzabar, Inc.  Create Student Update © 2015 Jenzabar, Inc.  Expand the configuration to the following features     Satisfactory Progress Details  •   SSN, ID, Award Year, POE  •   Final Progress, Alternate Progress  •   Cumulative GPA or Cumulative SAP GPA     Credit Hours Update  •   SSN, ID, Award Year  •   Export POEs section  Configuration Use © 2015 Jenzabar, Inc.     Rules Based Option  Rules © 2015 Jenzabar, Inc.  Translations     Institutional Reporting Definition – New in EX 5.5 © 2015 Jenzabar, Inc. © 2015 Jenzabar, Inc.  Other Ideas?     Window to directly maintain the PowerFAIDS external_data table?     Ability to alter the fixed data elements using a rule?     ??? © 2015 Jenzabar, Inc.  #420 – Create Student Update  Thank You",
+    "token_count_estimate": 495
+}

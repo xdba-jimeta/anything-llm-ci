@@ -1,0 +1,13 @@
+{
+    "id": "5a31092b-717e-49f1-999d-c23da1aaac2c",
+    "url": "file:///app/collector/hotdir/CW_RCC_Work Instruction for VPN.pdf",
+    "title": "CW_RCC_Work Instruction for VPN.pdf",
+    "docAuthor": "Microsoft Word",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:54:49 PM",
+    "wordCount": 372,
+    "pageContent": "1   |   P a g e  How to Access VPN  For users with   remote access   for work.  PURPOSE  This document is a short guide to   instruct you on setting up VPN connection for remote work.  You can always reach out to the Help Desk team with any questions or   concerns   by emailing  helpdesk@rcc.mass.edu   or calling 857 - 701 - 1555.  VPN (REMOTE ACCESS)  If you are approved to work remotely, you will need to download   the Palo Alto VPN software.   Use a web  browser and   browse   to   GlobalProtect Portal (mass.edu) .   You will be prompted to login to the site with your  Active Directory credentials   (Figure 1) .  Figure 1   –   Login prompt  D ownload the Palo Alto VPN client (OS appropriate   –   Figure   2)   and click Next on all options in the download .  Figure 2   –   GlobalProtect download page 2   |   P a g e  Once the application is downloaded a new icon will be populated in your task bar   hidden icons   (small grey  Earth) . You can find this on the bottom right corner of your screen   (Figure 3) .  Figure 3   –   GlobalProtect taskbar icon  Click on the icon and   enter the portal address ( remote.rcc.mass.edu ) as you see in Figure 4 to c onnect .   using  the   GlobalProtect   software   (Figure   4 ) .  F igure 4   –   GlobalProtect portal address  You will be prompted to enter your Active Directory credentials   in Figure 5.   Enter your username and  password and click Sign In. You are now connected to the RCC network.  Figure   5   –   GlobalProtect   login credentials",
+    "token_count_estimate": 386
+}

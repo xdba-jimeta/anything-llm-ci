@@ -1,0 +1,13 @@
+{
+    "id": "3e9b19da-470d-4a3a-959f-7e6ffcf95bde",
+    "url": "file:///app/collector/hotdir/Work Instruction for AD Authentication.pdf",
+    "title": "Work Instruction for AD Authentication.pdf",
+    "docAuthor": "Microsoft® Word for Microsoft 365",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:46:30 PM",
+    "wordCount": 171,
+    "pageContent": "1   |   P a g e  Work Instruction  Accessing Jenzabar with AD Authentication  PURPOSE  This work instruction provides   instruction on how J1 Desktop   Active Directory   authentication   functions .  PRECONDITIONS  The user must have a Jenzabar account.  LOGGING IN  When the user clicks   on the   J1 Desktop icon from the RDS web (or shortcut from your home   scr een),   the window below  will pop - up   once . The user should choose J1 Desktop   from   the   Database drop - down (if it is not already s elected) and  click OK.  *** After this ini tial login with AD Authentication, the user wil l no longer see the prompt screen. When   the J1 Desktop  app is clicked, the   application will   automatically open.  END OF WORK INSTRUCTION",
+    "token_count_estimate": 179
+}

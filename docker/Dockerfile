@@ -2,8 +2,8 @@
 FROM ubuntu:jammy-20230916 AS base
 
 # Build arguments
-ARG ARG_UID=1000
-ARG ARG_GID=1000
+ARG ARG_UID=1001
+ARG ARG_GID=1001
 
 FROM base AS build-arm64
 RUN echo "Preparing build of AnythingLLM image for arm64 architecture"
@@ -30,14 +30,14 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
         && rm yarn_1.22.19_all.deb
 
 # Create a group and user with specific UID and GID
-RUN groupadd -g "$ARG_GID" anythingllm && \
-    useradd -l -u "$ARG_UID" -m -d /app -s /bin/bash -g anythingllm anythingllm && \
+RUN groupadd -g 1001 anythingllm && \
+    useradd -l -u 1001 -m -d /app -s /bin/bash -g anythingllm anythingllm && \
     mkdir -p /app/frontend/ /app/server/ /app/collector/ && chown -R anythingllm:anythingllm /app
 
 # Copy docker helper scripts
 COPY ./docker/docker-entrypoint.sh /usr/local/bin/
 COPY ./docker/docker-healthcheck.sh /usr/local/bin/
-COPY --chown=anythingllm:anythingllm ./docker/.env.example /app/server/.env
+COPY --chown=1001:1001 ./docker/.env.example /app/server/.env
 
 # Ensure the scripts are executable
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh && \
@@ -88,14 +88,14 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
         && rm yarn_1.22.19_all.deb
 
 # Create a group and user with specific UID and GID
-RUN groupadd -g "$ARG_GID" anythingllm && \
-    useradd -l -u "$ARG_UID" -m -d /app -s /bin/bash -g anythingllm anythingllm && \
-    mkdir -p /app/frontend/ /app/server/ /app/collector/ && chown -R anythingllm:anythingllm /app
+# RUN groupadd -g "$ARG_GID" anythingllm && \
+ #   useradd -l -u "$ARG_UID" -m -d /app -s /bin/bash -g anythingllm anythingllm && \
+ #   mkdir -p /app/frontend/ /app/server/ /app/collector/ && chown -R anythingllm:anythingllm /app
 
 # Copy docker helper scripts
 COPY ./docker/docker-entrypoint.sh /usr/local/bin/
 COPY ./docker/docker-healthcheck.sh /usr/local/bin/
-COPY --chown=anythingllm:anythingllm ./docker/.env.example /app/server/.env
+COPY --chown=1001:1001 ./docker/.env.example /app/server/.env
 
 # Ensure the scripts are executable
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh && \
@@ -106,8 +106,8 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh && \
 #############################################
 
 # hadolint ignore=DL3006
-FROM build-${TARGETARCH} AS build
-RUN echo "Running common build flow of AnythingLLM image for all architectures"
+# FROM build-${TARGETARCH} AS build
+# RUN echo "Running common build flow of AnythingLLM image for all architectures"
 
 USER anythingllm
 WORKDIR /app

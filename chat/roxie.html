@@ -1,0 +1,136 @@
+<style>
+    /* Style for the iframe */
+    #myframeme {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: -100;
+        border: none;
+    }
+
+    /* Style for the green button */
+    .green-button {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        background-color: rgba(0, 128, 0, 0.5);
+        background-image: url(http://172.21.12.138:3001/chat/chat.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+        z-index: 1001;
+        margin-bottom: 3rem;
+        margin-right: 2rem;
+        transition: width 0.2s ease, height 0.2s ease, margin 0.2s ease;
+    }
+
+    /* Hover effect for the green button */
+    .green-button:hover {
+        width: 65px;
+        height: 65px;
+        margin-bottom: 2.75rem;
+        margin-right: 1.75rem;
+    }
+</style>
+
+<!-- Container for the iframe -->
+<div class="myframe"></div>
+
+<!-- Green button element -->
+<div class="green-button" id="greenButton"></div>
+
+<script>
+    window.onload = function() {
+        var frameContainer = document.querySelector(".myframe");
+
+        // Check if the iframe is already present, if not, create it
+        if (!frameContainer.querySelector("#myframeme")) {
+            var iframe = document.createElement("iframe");
+            iframe.id = "myframeme";
+            iframe.style.cssText = "position:fixed; height:100%; width:100%; bottom:0; right:0; z-index:-100; border:none;";
+            iframe.src = "http://172.21.12.138:3001/chat/";
+            frameContainer.appendChild(iframe);
+        }
+
+        // Add click event listener to the green button
+        document.getElementById("greenButton").addEventListener("click", function() {
+            var iframe = document.getElementById("myframeme");
+            iframe.style.zIndex = "2001";  // Bring the iframe to the front
+
+            // Create a MutationObserver to observe changes in the iframe's document
+            // NOTE: This will not work for cross-origin iframes
+            new MutationObserver(function(mutations, observer) {
+                (function(observer) {
+                    try {
+                        var closeButton = (iframe.contentDocument || iframe.contentWindow.document).querySelector('button[aria-label="Close"]');
+                        if (closeButton) {
+                            // Add event listener to the close button to send the iframe back
+                            closeButton.addEventListener("click", function() {
+                                iframe.style.zIndex = "-100";
+                                observer.disconnect();
+                            });
+                        }
+                    } catch (error) {
+                        console.error("Error accessing iframe contents:", error);
+                    }
+                })(observer);
+            }).observe(iframe.contentDocument || iframe.contentWindow.document, {
+                childList: true,
+                subtree: true
+            });
+
+            // Set a timeout to ensure the iframe content is loaded
+            setTimeout(function() {
+                try {
+                    var toggleButton = (iframe.contentDocument || iframe.contentWindow.document).querySelector('button[aria-label="Toggle Menu"]');
+                    if (toggleButton) {
+                        toggleButton.click();  // Click the toggle button if found
+                    } else {
+                        iframe.style.zIndex = "2001";  // Ensure iframe is in front
+                    }
+                } catch (error) {
+                    console.error("Error accessing iframe contents:", error);
+                    iframe.style.zIndex = "2001";  // Ensure iframe is in front
+                }
+            }, 100);
+        });
+    };
+</script>
+<!doctype html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<html lang="en">
+
+  <body>
+    <h1>Welcome to Roxie the training assistant.</h1>
+    <!--
+      <script data-embed-id="example-uuid" data-base-api-url='http://localhost:3001/api/embed' data-open-on-load="on"
+      src="/dist/anythingllm-chat-widget.js"> USE THIS SRC FOR DEVELOPMENT SO CHANGES APPEAR!
+      </script>
+    -->
+  </body>
+
+<script
+data-embed-id="6ea3f898-44fd-4a02-b185-f37898e2c33f"
+data-base-api-url="http://172.21.12.138:3001/api/embed"
+data-chat-icon="magic"
+data-open-on-load="on"
+data-sponsor-text="Roxie"
+data-no-sponsor="Roxie"
+data-window-height="800px"
+data-window-height="500px"
+data-brand-image-url="http://172.21.12.138:3080/roxbury_logo.ico"
+data-assistant-icon="http://172.21.12.138:3080/roxie-bot-tiny.ico"
+data-position="bottom-right"
+data-assistant-name=Roxie
+src="http://172.21.12.138:3001/embed/anythingllm-chat-widget.min.js">
+</script>
+</html>
+

@@ -1,0 +1,13 @@
+{
+    "id": "fcce650e-1083-4d3b-9ea4-24c3b93590a2",
+    "url": "file:///app/collector/hotdir/Work Instruction_Setting_Up_New_Email_Communication.pdf",
+    "title": "Work Instruction_Setting_Up_New_Email_Communication.pdf",
+    "docAuthor": "Microsoft® Word for Microsoft 365",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:46:32 PM",
+    "wordCount": 316,
+    "pageContent": "1)   Define Action . When creating a new letter, you will need to use the “New Action” button. To  modify an Action use the “Edit Action” button. 2)   Define Merge Document  -   If creating a new document, you will need to “Add Row”.  -   If modifying an existing document you will need to “Edit Document Definition”.  -   For all email Actions, the document definition should be modelled after the “EACCP”  document definition. -   It is   o kay to reuse the r_mailmerge_accpt_jef query.  -   Must create the Email HTML template.   Use the EACCP.htm file as a basis, copy it first and  rename it, then edit it in KompoZer.  -   Must create   a   Datafile.   Jenzabar won’t do this for you. Copy one of the data fi les and  rename it to match the Action Name, i.e. EACCP.txt can be copied to ECONA.txt (for email  conditional acceptance letters.)  -   Setup the “Email Options” to suit the purpose of the letter. Okay to reuse most of what you  see here with perhaps the Subject   line being changed.  -   TEST, TEST, TEST. Click the “Merge” button and use the “Testing 123” student record.  -   TEST again by using the Daily Procedure to send the email. Preferably using the “Testing  123” student account.  3)   Add the New action to whatever Action   List you want to add the email to.   This is usually the  Action List that is triggered by a stage change, such as conditional acceptance stage. But it could  be any action list, triggered by other events (such as from the Billing Office).",
+    "token_count_estimate": 379
+}

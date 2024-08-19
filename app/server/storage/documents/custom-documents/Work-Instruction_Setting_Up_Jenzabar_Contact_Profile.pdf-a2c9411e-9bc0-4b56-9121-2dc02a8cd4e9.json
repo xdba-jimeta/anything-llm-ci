@@ -1,0 +1,13 @@
+{
+    "id": "a2c9411e-9bc0-4b56-9121-2dc02a8cd4e9",
+    "url": "file:///app/collector/hotdir/Work Instruction_Setting_Up_Jenzabar_Contact_Profile.pdf",
+    "title": "Work Instruction_Setting_Up_Jenzabar_Contact_Profile.pdf",
+    "docAuthor": "Microsoft® Word 2013",
+    "description": "Using the Mass Add tool in Jenzabar.  A Step by Step for Assigning eBlast Actions to Constituents",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:46:32 PM",
+    "wordCount": 395,
+    "pageContent": "Work Instruction  Setting Up Jenzabar Contact Profile  PURPOSE  This work instruction covers setting up Contact Profile Information in Jenzabar.  User Contact Profile information is required for the communication and notification features of Jenzabar to function. There are several modules that rely heavily on Contact Profile information to ensure that notifications are deliverable to users. The Budget Module, and Purchasing/Requisition modules are both good examples.  Every Jenzabar user must setup their own Contact Profile information. If it is not setup correctly, the user will receive no notifications.  PRECONDITIONS  The user must have a Jenzabar account.  The user must know the user name and password for their account.  The user must have the Jenzabar client application open.  SET MY PROFILE   PREFERENCES  1)   Access the User Preferences by selecting the “User Preferences” menu item from the “Tools” drop -down menu. See Figure 1.  Figure 1   –   The Jenzabar   “ Tools ”   |   “ User Preferences ”   menu item  The “Use r Pr eferences” window will be displayed. See Figure 2. Figure 2   –   The “User Preferences” window (Partial Screen Shot).  2)   Locate and click on the “Set My Profile Preferences” link. See Figure 3.  Figure 3   –   The “Set My Profile Preferences” link.  The “Set My Profile Preferences” window will be displayed. See Figure 4.  Figure 4   –   The “Set My Profile Preferences” window. 3)   At minimum, you should setup your email address. Select the   “Use Email On Record” option from the  drop-down email selection list to locate and apply your email address to your account. Alternatively, you may type in an email address where you prefer to receive your email. See Figure 5.  Figure 5   –   The Use Email on record drop-down.  4)   Click the “Save” button at the bottom of the “Set My Profile Preferences” window. See Figure 6.  Figure 6   –   The “Save” button.  You will now be able to receive notifications from other users and automated messages from the Jenzabar system.  END OF WORK   INSTRUCTIONS",
+    "token_count_estimate": 479
+}

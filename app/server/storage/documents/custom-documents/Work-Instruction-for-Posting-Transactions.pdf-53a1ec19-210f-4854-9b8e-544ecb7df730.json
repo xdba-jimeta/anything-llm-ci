@@ -1,0 +1,13 @@
+{
+    "id": "53a1ec19-210f-4854-9b8e-544ecb7df730",
+    "url": "file:///app/collector/hotdir/Work Instruction for Posting Transactions.pdf",
+    "title": "Work Instruction for Posting Transactions.pdf",
+    "docAuthor": "Microsoft Word",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:40:53 PM",
+    "wordCount": 336,
+    "pageContent": "1   |   P a g e  Work Instruction  Posting   Transactions  Author: Jessica Dover, Senior Technologist, CampusWorks Inc.  First Publication Date: 06/08/2021  PURPOSE  This work instruction provides step by step processes to review and post transactions.  PRECONDITIONS  The user must have a Jenzabar account. The user must know the username and password for their account. The user  must also be logged into Jenzabar to access the windows referenced in this document. Additionally, the user must have  the correct account permi ssions to access the windows. If you believe you should have access and do not, please contact  your immediate supervisor for more instruction.  1.)   Open the Transaction Groups window, select the transaction group to be posted. The user may click the Edit  button initially to review the individual transactions in the group. Click the   Print/Edit   button to update  transaction to Unposted Status.  (This applies to all types of transactions. The CG source code indicates Charges to be posted, the RC status  indicates Receipts or Payments to be posted, the FA indicates Financial Aid disbursements to be posted, the @C  source indicates Preliminary Charges   and the @F indicates Anticipated Aid that can never be posted to the G/L  because they are ‘fake’ transactions.)  Figure 1   –   Print Edit to update transaction status  2.)   By clicking the Post button as seen in Figure 2, the transaction(s) in this group will be officially posted to the  student accounts and the G/L. 2   |   P a g e  Figure 2   –   Posting a transaction group  3.)   Once the Post process is complete a report will be generated as seen in Figure 3.  Figure 3   –   Transaction posting report  END OF WORK INSTRUCTION",
+    "token_count_estimate": 390
+}

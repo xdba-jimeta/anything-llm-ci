@@ -1,0 +1,13 @@
+{
+    "id": "35f03858-7718-4b0b-9a09-67577cb94929",
+    "url": "file:///app/collector/hotdir/Work Instruction for Student Account Statements.pdf",
+    "title": "Work Instruction for Student Account Statements.pdf",
+    "docAuthor": "Microsoft Word",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:40:54 PM",
+    "wordCount": 423,
+    "pageContent": "1   |   P a g e  Work Instruction  Jenzabar Help Topics   –   Discovery & Access  Author: Jessica Dover, Senior Technologist, CampusWorks Inc.  First Publication Date: 09/21/2021  PURPOSE  This work instruction covers how   to retrieve a Student Account Statement in   Jenzabar.   This report is a pre - built  Jenzabar provided report edited to fit Roxbury Community College.   This statement is replicated in   MyRCC,   so students  and staff   can   re view the same information , allowing Student Accounts’ staff consistent information to counsel students  regarding their accounts.  PRECONDITIONS  The user must have a Jenzabar account. The user must know the username and password for their account. The user  must also have access to the Business Office related windows.  RETRIEVING STUDENT ACCOUNT STATEMENTS  1.)   Open Student Account Statements Window (see Figure 1),  2.)   Choose   r_statements_layout1_arcc   from the drop - down box   as the Format .  3.)   C lick both Bill Remaining Balance and Preliminary checkboxes .  4.)   T ype the Student ID under Avaliable Students .  5.)   D rag the ID number to the Selected Students box .  6.)   C lick Preview. 2   |   P a g e  Figure 1   –   Student Account Statements window  7.)   If a user wishes to save as a PDF file, click File, Save Rows As... and then Save As a PDF  Figure 2   –   Save Rows As...  8.)   Choose   location to save file, enter the File name, and choose PDF as type. Click Save.  Figure 3   –   Choose file location, name, and format 3   |   P a g e  PUBLISHING STUDENT ACCOUNT STATEMENTS  The Student Accounts staff have the ability to publish all statements to students on the MyRCC portal instantly by  clicking the Publish to Students button in the Student Account Statements window. (Some   minor   additional setup will  need to be performed in IT   to allow this functionality.)  Figure 4   –   Publish to Students option  END OF WORK   INSTRUCTIONS",
+    "token_count_estimate": 477
+}

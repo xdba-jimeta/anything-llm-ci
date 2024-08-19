@@ -1,0 +1,661 @@
+yarn run v1.22.22
+$ nodemon -e js,jsx,css --watch src --exec "yarn run dev:preview"
+[33m[nodemon] 2.0.22[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: js,jsx,css[39m
+[32m[nodemon] starting `yarn run dev:preview`[39m
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at errorOrDestroy (node:internal/streams/destroy:239:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:683:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v22.3.0
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+$ yarn run dev:build && yarn serve . -p 3080 --no-clipboard
+$ vite build && yarn styles
+vite v5.0.12 building for production...
+transforming...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✓ 2754 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/style.css                      10.37 kB │ gzip:   2.58 kB
+dist/anythingllm-chat-widget.js  2,811.25 kB │ gzip: 846.11 kB │ map: 1,673.43 kB
+✓ built in 7.76s
+$ npx cleancss -o dist/anythingllm-chat-widget.min.css dist/style.css
+$ /home/raguser/anything-llm/embed/node_modules/.bin/serve . -p 3080 --no-clipboard
+(node:1372692) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ UPDATE  The latest version of `serve` is 14.2.3
+ INFO  Accepting connections at http://localhost:3080
+ HTTP  7/29/2024 8:39:07 PM 10.212.134.14 GET /
+ HTTP  7/29/2024 8:39:07 PM 10.212.134.14 Returned 200 in 47 ms
+ HTTP  7/29/2024 8:39:08 PM 10.212.134.14 GET /favicon.ico
+ HTTP  7/29/2024 8:39:08 PM 10.212.134.14 Returned 404 in 6 ms
+ HTTP  7/29/2024 8:39:16 PM 10.212.134.14 GET /embed/images/roxbury_logo.ico
+ HTTP  7/29/2024 8:39:16 PM 10.212.134.14 Returned 404 in 2 ms
+Killed
+yarn run v1.22.22
+$ nodemon -e js,jsx,css --watch src --exec "yarn run dev:preview"
+[33m[nodemon] 2.0.22[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: js,jsx,css[39m
+[32m[nodemon] starting `yarn run dev:preview`[39m
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at errorOrDestroy (node:internal/streams/destroy:239:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:683:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v22.3.0
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+$ yarn run dev:build && yarn serve . -p 3080 --no-clipboard
+$ vite build && yarn styles
+vite v5.0.12 building for production...
+transforming...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✓ 2754 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/style.css                      10.37 kB │ gzip:   2.58 kB
+dist/anythingllm-chat-widget.js  2,811.25 kB │ gzip: 846.11 kB │ map: 1,673.43 kB
+✓ built in 7.92s
+$ npx cleancss -o dist/anythingllm-chat-widget.min.css dist/style.css
+$ /home/raguser/anything-llm/embed/node_modules/.bin/serve . -p 3080 --no-clipboard
+(node:1373857) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ UPDATE  The latest version of `serve` is 14.2.3
+ INFO  Accepting connections at http://localhost:3080
+yarn run v1.22.22
+$ nodemon -e js,jsx,css --watch src --exec "yarn run dev:preview"
+[33m[nodemon] 2.0.22[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: js,jsx,css[39m
+[32m[nodemon] starting `yarn run dev:preview`[39m
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at errorOrDestroy (node:internal/streams/destroy:239:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:683:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v22.3.0
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+$ yarn run dev:build && yarn serve . -p 3080 --no-clipboard
+$ vite build && yarn styles
+vite v5.0.12 building for production...
+transforming...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✓ 2754 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/style.css                      10.37 kB │ gzip:   2.58 kB
+dist/anythingllm-chat-widget.js  2,811.25 kB │ gzip: 846.11 kB │ map: 1,673.43 kB
+✓ built in 7.42s
+$ npx cleancss -o dist/anythingllm-chat-widget.min.css dist/style.css
+$ /home/raguser/anything-llm/embed/node_modules/.bin/serve . -p 3080 --no-clipboard
+(node:1374054) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ UPDATE  The latest version of `serve` is 14.2.3
+ INFO  Accepting connections at http://localhost:39315
+ HTTP  7/29/2024 10:17:29 PM 10.212.134.33 GET /
+ HTTP  7/29/2024 10:17:29 PM 10.212.134.33 Returned 304 in 24 ms
+ HTTP  7/29/2024 10:17:30 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  7/29/2024 10:17:30 PM 10.212.134.33 Returned 404 in 4 ms
+ HTTP  7/29/2024 10:17:30 PM 10.212.134.33 GET /favicon.ico
+ HTTP  7/29/2024 10:17:30 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  7/30/2024 9:23:12 AM 10.212.134.14 GET /
+ HTTP  7/30/2024 9:23:12 AM 10.212.134.14 Returned 200 in 2 ms
+ HTTP  7/30/2024 9:23:13 AM 10.212.134.14 GET /embed/images/roxbury_logo.ico
+ HTTP  7/30/2024 9:23:13 AM 10.212.134.14 Returned 404 in 2 ms
+ HTTP  7/30/2024 9:23:13 AM 10.212.134.14 GET /favicon.ico
+ HTTP  7/30/2024 9:23:13 AM 10.212.134.14 Returned 404 in 2 ms
+ HTTP  7/30/2024 12:17:12 PM 10.212.134.6 GET /
+ HTTP  7/30/2024 12:17:12 PM 10.212.134.6 Returned 200 in 2 ms
+ HTTP  7/30/2024 12:17:12 PM 10.212.134.6 GET /favicon.ico
+ HTTP  7/30/2024 12:17:12 PM 10.212.134.6 Returned 404 in 2 ms
+ HTTP  7/30/2024 12:17:27 PM 10.212.134.6 GET /embed/images/roxbury_logo.ico
+ HTTP  7/30/2024 12:17:27 PM 10.212.134.6 Returned 404 in 3 ms
+ HTTP  7/30/2024 12:20:40 PM 10.212.134.6 GET /
+ HTTP  7/30/2024 12:20:40 PM 10.212.134.6 Returned 304 in 1 ms
+ HTTP  7/30/2024 12:20:41 PM 10.212.134.6 GET /embed/images/roxbury_logo.ico
+ HTTP  7/30/2024 12:20:41 PM 10.212.134.6 Returned 404 in 2 ms
+ HTTP  7/31/2024 11:38:17 AM 10.212.134.14 GET /
+ HTTP  7/31/2024 11:38:17 AM 10.212.134.14 Returned 200 in 1 ms
+ HTTP  7/31/2024 11:38:18 AM 10.212.134.14 GET /embed/images/roxbury_logo.ico
+ HTTP  7/31/2024 11:38:18 AM 10.212.134.14 Returned 404 in 1 ms
+ HTTP  7/31/2024 11:38:18 AM 10.212.134.14 GET /favicon.ico
+ HTTP  7/31/2024 11:38:18 AM 10.212.134.14 Returned 404 in 2 ms
+ HTTP  8/1/2024 4:54:49 PM 10.212.134.14 GET /
+ HTTP  8/1/2024 4:54:49 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/1/2024 4:54:49 PM 10.212.134.14 GET /embed/images/roxbury_logo.ico
+ HTTP  8/1/2024 4:54:49 PM 10.212.134.14 Returned 404 in 2 ms
+ HTTP  8/1/2024 4:54:50 PM 10.212.134.14 GET /favicon.ico
+ HTTP  8/1/2024 4:54:50 PM 10.212.134.14 Returned 404 in 1 ms
+ HTTP  8/2/2024 4:41:08 PM 10.212.134.14 GET /
+ HTTP  8/2/2024 4:41:08 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/2/2024 4:41:08 PM 10.212.134.14 GET /embed/images/roxbury_logo.ico
+ HTTP  8/2/2024 4:41:08 PM 10.212.134.14 Returned 404 in 1 ms
+ HTTP  8/2/2024 4:41:08 PM 10.212.134.14 GET /favicon.ico
+ HTTP  8/2/2024 4:41:08 PM 10.212.134.14 Returned 404 in 2 ms
+ HTTP  8/5/2024 3:11:22 PM ::1 GET /
+ HTTP  8/5/2024 3:11:22 PM ::1 Returned 200 in 1 ms
+ HTTP  8/5/2024 3:11:23 PM ::1 GET /favicon.ico
+ HTTP  8/5/2024 3:11:23 PM ::1 Returned 404 in 3 ms
+ HTTP  8/5/2024 3:11:35 PM ::1 GET /
+ HTTP  8/5/2024 3:11:35 PM ::1 Returned 304 in 1 ms
+ HTTP  8/5/2024 3:11:36 PM ::1 GET /
+ HTTP  8/5/2024 3:11:36 PM ::1 Returned 304 in 1 ms
+ HTTP  8/5/2024 3:11:39 PM ::1 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 3:11:39 PM ::1 Returned 404 in 2 ms
+ HTTP  8/5/2024 3:25:43 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 3:25:43 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 3:25:44 PM 10.212.134.33 GET /favicon.ico
+ HTTP  8/5/2024 3:25:44 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 3:25:45 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 3:25:45 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 3:41:20 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 3:41:20 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/5/2024 3:41:21 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 3:41:21 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 3:41:22 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 3:41:22 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/5/2024 3:41:22 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 3:41:22 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 3:41:23 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 3:41:23 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 3:41:23 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 3:41:23 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:03:39 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:03:39 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:03:39 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 4:03:39 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:04:08 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:04:08 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:04:09 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:04:09 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:08:47 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:08:47 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:08:48 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:08:48 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:10:19 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:10:19 PM 10.212.134.33 Returned 200 in 3 ms
+ HTTP  8/5/2024 4:10:19 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:10:19 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:16:03 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:16:03 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:16:03 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:16:03 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:16:27 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:16:27 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:16:27 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:16:27 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:16:28 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:16:28 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:16:28 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:16:28 PM 10.212.134.33 Returned 404 in 3 ms
+ HTTP  8/5/2024 4:16:29 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:16:29 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:16:29 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:16:29 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:16:50 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:16:50 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:16:50 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:16:50 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:16:53 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:16:53 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:16:53 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:16:53 PM 10.212.134.33 Returned 404 in 3 ms
+ HTTP  8/5/2024 4:17:18 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:18 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:17:19 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:19 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:17:21 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:21 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:17:22 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:22 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:17:35 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:35 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:17:35 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:35 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:17:36 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:36 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:17:36 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:36 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:17:37 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:37 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:17:37 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:37 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:17:38 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:38 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:17:38 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:38 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:17:51 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:51 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:17:51 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:51 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:17:52 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:17:52 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:17:52 PM 10.212.134.33 GET /embed/images/RoxCC_BlueBg_1.png
+ HTTP  8/5/2024 4:17:52 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:20:10 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:20:10 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:20:10 PM 10.212.134.33 GET /embed/images/RoxCC_Blue_350x98_web_1.png
+ HTTP  8/5/2024 4:20:10 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:24:04 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:24:04 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:24:05 PM 10.212.134.33 GET /embed/images/roxburyi_logo.ico
+ HTTP  8/5/2024 4:24:05 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:24:36 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:24:36 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:24:36 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 4:24:36 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:25:11 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 4:25:11 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:29:10 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:29:10 PM 10.212.134.33 Returned 200 in 36 ms
+ HTTP  8/5/2024 4:29:11 PM 10.212.134.33 GET /embed/roxbury_logo.ico
+ HTTP  8/5/2024 4:29:11 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:34:45 PM 10.212.134.33 GET /embed/images/roxbury_logo.ico
+ HTTP  8/5/2024 4:34:45 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:34:52 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:34:52 PM 10.212.134.33 Returned 200 in 3 ms
+ HTTP  8/5/2024 4:34:58 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:34:58 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:34:58 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:34:58 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:35:22 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:35:22 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:35:23 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:35:23 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:36:37 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:36:37 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:36:37 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:36:37 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:36:40 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:36:40 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:36:40 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:36:40 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:45:23 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:45:23 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:45:23 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:45:23 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:45:23 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/robot-vacuum-cleaner_2961786.png%E2%80%9D
+ HTTP  8/5/2024 4:45:23 PM 10.212.134.33 Returned 404 in 2 ms
+ HTTP  8/5/2024 4:47:49 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:47:49 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:47:50 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:47:50 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:47:50 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/robot-vacuum-cleaner_2961786.png%E2%80%9D
+ HTTP  8/5/2024 4:47:50 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:49:50 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:49:50 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:49:50 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:49:50 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:49:50 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/roxie-bot-tiny.png%E2%80%9D
+ HTTP  8/5/2024 4:49:50 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:49:51 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:49:51 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:49:51 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:49:51 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:49:51 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/roxie-bot-tiny.png%E2%80%9D
+ HTTP  8/5/2024 4:49:51 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:49:52 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:49:52 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:49:52 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:49:52 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:49:52 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/roxie-bot-tiny.png%E2%80%9D
+ HTTP  8/5/2024 4:49:52 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:50:25 PM 10.212.134.33 GET /roxie-bot-tiny.png
+ HTTP  8/5/2024 4:50:25 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:52:04 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:52:04 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:52:04 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:52:04 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:52:04 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/roxie-bot-tiny.png%E2%80%9D
+ HTTP  8/5/2024 4:52:04 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:54:17 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:54:17 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/5/2024 4:54:18 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:54:18 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:54:18 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/roxie-bot-tiny.ico%E2%80%9D
+ HTTP  8/5/2024 4:54:18 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:54:19 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:54:19 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:54:19 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:54:19 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:54:19 PM 10.212.134.33 GET /%E2%80%9Chttp://172.21.12.138:3080/roxie-bot-tiny.ico%E2%80%9D
+ HTTP  8/5/2024 4:54:19 PM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/5/2024 4:56:34 PM 10.212.134.33 GET /
+ HTTP  8/5/2024 4:56:34 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/5/2024 4:56:35 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/5/2024 4:56:35 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/5/2024 4:56:36 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/5/2024 4:56:36 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/6/2024 12:25:54 PM 10.212.134.14 GET /
+ HTTP  8/6/2024 12:25:54 PM 10.212.134.14 Returned 200 in 2 ms
+ HTTP  8/6/2024 12:25:55 PM 10.212.134.14 GET /roxbury_logo.ico
+ HTTP  8/6/2024 12:25:55 PM 10.212.134.14 Returned 200 in 1 ms
+ HTTP  8/6/2024 12:25:55 PM 10.212.134.14 GET /favicon.ico
+ HTTP  8/6/2024 12:25:55 PM 10.212.134.14 Returned 404 in 2 ms
+ HTTP  8/6/2024 12:25:55 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/6/2024 12:25:55 PM 10.212.134.14 Returned 200 in 1 ms
+ HTTP  8/6/2024 12:32:57 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/6/2024 12:32:57 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/6/2024 12:47:54 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/6/2024 12:47:54 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/6/2024 12:51:31 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/6/2024 12:51:31 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/6/2024 2:40:22 PM 10.212.134.14 GET /
+ HTTP  8/6/2024 2:40:22 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/6/2024 2:40:22 PM 10.212.134.14 GET /roxbury_logo.ico
+ HTTP  8/6/2024 2:40:22 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/6/2024 2:40:22 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/6/2024 2:40:22 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/7/2024 11:14:05 AM 10.212.134.33 GET /
+ HTTP  8/7/2024 11:14:05 AM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/7/2024 11:14:21 AM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/7/2024 11:14:21 AM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/7/2024 11:14:21 AM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 11:14:21 AM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/7/2024 11:14:21 AM 10.212.134.33 GET /favicon.ico
+ HTTP  8/7/2024 11:14:21 AM 10.212.134.33 Returned 404 in 6 ms
+ HTTP  8/7/2024 11:24:19 AM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/7/2024 11:24:19 AM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/7/2024 12:34:39 PM 10.212.134.14 GET /
+ HTTP  8/7/2024 12:34:39 PM 10.212.134.14 Returned 304 in 0 ms
+ HTTP  8/7/2024 12:34:39 PM 10.212.134.14 GET /roxbury_logo.ico
+ HTTP  8/7/2024 12:34:39 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/7/2024 12:34:39 PM 10.212.134.14 GET /favicon.ico
+ HTTP  8/7/2024 12:34:39 PM 10.212.134.14 Returned 404 in 1 ms
+ HTTP  8/7/2024 12:34:40 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 12:34:40 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/7/2024 12:46:05 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 12:46:05 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/7/2024 1:13:18 PM 10.212.134.6 GET /
+ HTTP  8/7/2024 1:13:18 PM 10.212.134.6 Returned 200 in 1 ms
+ HTTP  8/7/2024 1:13:19 PM 10.212.134.6 GET /roxbury_logo.ico
+ HTTP  8/7/2024 1:13:19 PM 10.212.134.6 Returned 200 in 2 ms
+ HTTP  8/7/2024 1:13:19 PM 10.212.134.6 GET /favicon.ico
+ HTTP  8/7/2024 1:13:19 PM 10.212.134.6 Returned 404 in 2 ms
+ HTTP  8/7/2024 1:13:19 PM 10.212.134.6 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 1:13:19 PM 10.212.134.6 Returned 200 in 1 ms
+ HTTP  8/7/2024 1:52:14 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 1:52:14 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/7/2024 1:53:46 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 1:53:46 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/7/2024 1:55:09 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 1:55:09 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/7/2024 5:33:58 PM 172.21.4.33 GET /
+ HTTP  8/7/2024 5:33:58 PM 172.21.4.33 Returned 200 in 1 ms
+ HTTP  8/7/2024 5:33:59 PM 172.21.4.33 GET /roxbury_logo.ico
+ HTTP  8/7/2024 5:33:59 PM 172.21.4.33 Returned 200 in 1 ms
+ HTTP  8/7/2024 5:33:59 PM 172.21.4.33 GET /favicon.ico
+ HTTP  8/7/2024 5:33:59 PM 172.21.4.33 Returned 404 in 2 ms
+ HTTP  8/7/2024 5:34:08 PM 172.21.12.92 GET /
+ HTTP  8/7/2024 5:34:08 PM 172.21.12.92 Returned 200 in 1 ms
+ HTTP  8/7/2024 5:34:08 PM 172.21.12.92 GET /roxbury_logo.ico
+ HTTP  8/7/2024 5:34:08 PM 172.21.12.92 Returned 200 in 1 ms
+ HTTP  8/7/2024 5:34:08 PM 172.21.12.92 GET /favicon.ico
+ HTTP  8/7/2024 5:34:08 PM 172.21.12.92 Returned 404 in 1 ms
+ HTTP  8/7/2024 5:34:34 PM 172.21.4.33 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 5:34:34 PM 172.21.4.33 Returned 200 in 1 ms
+ HTTP  8/7/2024 5:35:33 PM 172.21.12.92 GET /
+ HTTP  8/7/2024 5:35:33 PM 172.21.12.92 Returned 304 in 1 ms
+ HTTP  8/7/2024 5:35:33 PM 172.21.12.92 GET /roxbury_logo.ico
+ HTTP  8/7/2024 5:35:33 PM 172.21.12.92 Returned 304 in 1 ms
+ HTTP  8/7/2024 7:33:54 PM 10.212.134.6 GET /
+ HTTP  8/7/2024 7:33:54 PM 10.212.134.6 Returned 304 in 1 ms
+ HTTP  8/7/2024 7:33:55 PM 10.212.134.6 GET /roxbury_logo.ico
+ HTTP  8/7/2024 7:33:55 PM 10.212.134.6 Returned 304 in 1 ms
+ HTTP  8/7/2024 7:33:55 PM 10.212.134.6 GET /favicon.ico
+ HTTP  8/7/2024 7:33:55 PM 10.212.134.6 Returned 404 in 1 ms
+ HTTP  8/7/2024 7:34:09 PM 10.212.134.6 GET /roxie-bot-tiny.ico
+ HTTP  8/7/2024 7:34:09 PM 10.212.134.6 Returned 304 in 1 ms
+ HTTP  8/8/2024 1:13:21 PM 172.21.12.27 GET /
+ HTTP  8/8/2024 1:13:21 PM 172.21.12.27 Returned 200 in 2 ms
+ HTTP  8/8/2024 1:13:21 PM 172.21.12.27 GET /roxbury_logo.ico
+ HTTP  8/8/2024 1:13:21 PM 172.21.12.27 Returned 200 in 1 ms
+ HTTP  8/8/2024 1:13:21 PM 172.21.12.27 GET /favicon.ico
+ HTTP  8/8/2024 1:13:21 PM 172.21.12.27 Returned 404 in 1 ms
+ HTTP  8/8/2024 1:13:30 PM 172.21.12.27 GET /roxie-bot-tiny.ico
+ HTTP  8/8/2024 1:13:30 PM 172.21.12.27 Returned 200 in 1 ms
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 GET /
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 Returned 304 in 0 ms
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 GET /roxbury_logo.ico
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 Returned 304 in 1 ms
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 GET /favicon.ico
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 Returned 404 in 2 ms
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 GET /roxie-bot-tiny.ico
+ HTTP  8/8/2024 4:12:37 PM 10.212.134.6 Returned 304 in 0 ms
+ HTTP  8/8/2024 4:20:27 PM 10.212.134.14 GET /
+ HTTP  8/8/2024 4:20:27 PM 10.212.134.14 Returned 200 in 1 ms
+ HTTP  8/8/2024 4:20:28 PM 10.212.134.14 GET /roxbury_logo.ico
+ HTTP  8/8/2024 4:20:28 PM 10.212.134.14 Returned 200 in 1 ms
+ HTTP  8/8/2024 4:20:28 PM 10.212.134.14 GET /favicon.ico
+ HTTP  8/8/2024 4:20:28 PM 10.212.134.14 Returned 404 in 1 ms
+ HTTP  8/8/2024 4:22:17 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/8/2024 4:22:17 PM 10.212.134.14 Returned 200 in 1 ms
+ HTTP  8/9/2024 6:46:59 PM 10.212.134.14 GET /
+ HTTP  8/9/2024 6:46:59 PM 10.212.134.14 Returned 304 in 2 ms
+ HTTP  8/9/2024 6:46:59 PM 10.212.134.14 GET /roxbury_logo.ico
+ HTTP  8/9/2024 6:46:59 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/9/2024 6:47:00 PM 10.212.134.14 GET /favicon.ico
+ HTTP  8/9/2024 6:47:00 PM 10.212.134.14 Returned 404 in 2 ms
+ HTTP  8/9/2024 6:47:00 PM 10.212.134.14 GET /roxie-bot-tiny.ico
+ HTTP  8/9/2024 6:47:00 PM 10.212.134.14 Returned 304 in 1 ms
+ HTTP  8/11/2024 11:24:17 AM 10.212.134.33 GET /
+ HTTP  8/11/2024 11:24:17 AM 10.212.134.33 Returned 200 in 109 ms
+ HTTP  8/11/2024 11:24:17 AM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 11:24:17 AM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/11/2024 11:24:18 AM 10.212.134.33 GET /favicon.ico
+ HTTP  8/11/2024 11:24:18 AM 10.212.134.33 Returned 404 in 1 ms
+ HTTP  8/11/2024 11:24:28 AM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 11:24:28 AM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/11/2024 12:13:17 PM 10.212.134.33 GET /
+ HTTP  8/11/2024 12:13:17 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:13:17 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:13:17 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:13:18 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:13:18 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:13:24 PM 10.212.134.33 GET /chat/roxie.html
+ HTTP  8/11/2024 12:13:24 PM 10.212.134.33 Returned 301 in 48 ms
+ HTTP  8/11/2024 12:13:25 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:13:25 PM 10.212.134.33 Returned 404 in 3 ms
+ HTTP  8/11/2024 12:13:42 PM 10.212.134.33 GET /
+ HTTP  8/11/2024 12:13:42 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:13:42 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:13:42 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/11/2024 12:13:43 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:13:43 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:14:34 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:14:34 PM 10.212.134.33 Returned 200 in 22 ms
+ HTTP  8/11/2024 12:14:34 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:14:34 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 12:14:35 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:14:35 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 12:14:44 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:14:44 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 12:14:44 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:14:44 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 12:14:44 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:14:44 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:24:30 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:24:30 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/11/2024 12:24:34 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:24:34 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:24:35 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:24:35 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 12:24:36 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:24:36 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:25:01 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:25:01 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:25:04 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:25:04 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/11/2024 12:25:08 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:25:08 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/11/2024 12:25:22 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:25:22 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/11/2024 12:25:23 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:25:23 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:25:23 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:25:23 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:25:31 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:25:31 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/11/2024 12:25:31 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:25:31 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:25:31 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:25:31 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:28:42 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:28:42 PM 10.212.134.33 Returned 200 in 21 ms
+ HTTP  8/11/2024 12:28:48 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:28:48 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:28:55 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:28:55 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:30:11 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:30:11 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:31:09 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:31:09 PM 10.212.134.33 Returned 200 in 2 ms
+ HTTP  8/11/2024 12:31:12 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:31:12 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:31:13 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:31:13 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:31:13 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:31:13 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:31:17 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:31:17 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:31:18 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:31:18 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/11/2024 12:32:41 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:32:41 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/11/2024 12:32:41 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:32:41 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:32:41 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:32:41 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:32:46 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:32:46 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:32:46 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:32:46 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:32:46 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:32:46 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:34:14 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:34:14 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:34:14 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:34:14 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:34:14 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:34:14 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:34:16 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:34:16 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/11/2024 12:34:16 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:34:16 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:34:17 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:34:17 PM 10.212.134.33 Returned 304 in 2 ms
+ HTTP  8/11/2024 12:34:17 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:34:17 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:34:18 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:34:18 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:34:18 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:34:18 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:37:09 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:37:09 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 12:37:09 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:37:09 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:37:09 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:37:09 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 12:38:08 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 12:38:08 PM 10.212.134.33 Returned 200 in 1 ms
+ HTTP  8/11/2024 12:38:08 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 12:38:08 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 12:38:08 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 12:38:08 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 1:45:01 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 1:45:01 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 1:45:01 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 1:45:01 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 1:45:01 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 1:45:01 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 1:45:07 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 1:45:07 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 1:45:07 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 1:45:07 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 1:45:07 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 1:45:07 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 1:46:18 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 1:46:18 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 1:46:19 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 1:46:19 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 1:46:19 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 1:46:19 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/11/2024 1:54:20 PM 10.212.134.33 GET /chat/roxie
+ HTTP  8/11/2024 1:54:20 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 1:54:20 PM 10.212.134.33 GET /roxbury_logo.ico
+ HTTP  8/11/2024 1:54:20 PM 10.212.134.33 Returned 304 in 0 ms
+ HTTP  8/11/2024 1:54:21 PM 10.212.134.33 GET /roxie-bot-tiny.ico
+ HTTP  8/11/2024 1:54:21 PM 10.212.134.33 Returned 304 in 1 ms
+ HTTP  8/13/2024 11:41:56 PM ::1 GET /
+ HTTP  8/13/2024 11:41:56 PM ::1 Returned 200 in 309 ms
+ HTTP  8/13/2024 11:41:57 PM 172.21.12.138 GET /roxbury_logo.ico
+ HTTP  8/13/2024 11:41:57 PM 172.21.12.138 Returned 200 in 1 ms
+ HTTP  8/13/2024 11:41:57 PM 172.21.12.138 GET /roxie-bot-tiny.ico
+ HTTP  8/13/2024 11:41:57 PM 172.21.12.138 Returned 200 in 1 ms
+ HTTP  8/13/2024 11:41:57 PM ::1 GET /favicon.ico
+ HTTP  8/13/2024 11:41:57 PM ::1 Returned 404 in 59 ms
+ HTTP  8/14/2024 12:13:03 PM 192.168.100.5 GET /
+ HTTP  8/14/2024 12:13:03 PM 192.168.100.5 Returned 200 in 1 ms
+ HTTP  8/14/2024 12:13:04 PM 192.168.100.5 GET /roxbury_logo.ico
+ HTTP  8/14/2024 12:13:04 PM 192.168.100.5 Returned 200 in 49 ms
+ HTTP  8/14/2024 12:13:04 PM 192.168.100.5 GET /favicon.ico
+ HTTP  8/14/2024 12:13:04 PM 192.168.100.5 Returned 404 in 1 ms
+ HTTP  8/14/2024 12:13:13 PM 192.168.100.5 GET /roxie-bot-tiny.ico
+ HTTP  8/14/2024 12:13:13 PM 192.168.100.5 Returned 200 in 2 ms
+ HTTP  8/14/2024 1:01:09 PM 172.21.4.33 GET /roxbury_logo.ico
+ HTTP  8/14/2024 1:01:09 PM 172.21.4.33 Returned 304 in 1 ms
+ HTTP  8/14/2024 1:01:09 PM 172.21.4.33 GET /roxie-bot-tiny.ico
+ HTTP  8/14/2024 1:01:09 PM 172.21.4.33 Returned 304 in 1 ms
+ HTTP  8/14/2024 1:01:09 PM 172.21.4.33 GET /favicon.ico
+ HTTP  8/14/2024 1:01:09 PM 172.21.4.33 Returned 404 in 1 ms
+ HTTP  8/15/2024 4:44:49 PM 172.21.4.33 GET /roxbury_logo.ico
+ HTTP  8/15/2024 4:44:49 PM 172.21.4.33 Returned 304 in 1 ms
+ HTTP  8/15/2024 4:44:49 PM 172.21.4.33 GET /roxie-bot-tiny.ico
+ HTTP  8/15/2024 4:44:49 PM 172.21.4.33 Returned 304 in 1 ms
+ HTTP  8/15/2024 4:44:49 PM 172.21.4.33 GET /favicon.ico
+ HTTP  8/15/2024 4:44:49 PM 172.21.4.33 Returned 404 in 1 ms

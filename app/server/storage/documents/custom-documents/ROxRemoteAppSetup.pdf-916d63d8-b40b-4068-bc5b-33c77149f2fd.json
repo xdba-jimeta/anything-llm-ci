@@ -1,0 +1,13 @@
+{
+    "id": "916d63d8-b40b-4068-bc5b-33c77149f2fd",
+    "url": "file:///app/collector/hotdir/ROxRemoteAppSetup.pdf",
+    "title": "ROxRemoteAppSetup.pdf",
+    "docAuthor": "Microsoft® Word for Microsoft 365",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:46:30 PM",
+    "wordCount": 373,
+    "pageContent": "ROX RemoteApps Setup  Under the start menu search for RemoteApps and Desktop Connections  Click on the   app in the screen shot above and you sho uld see the screen below :  On the left   hand side you will need to cli ck on Access RemoteApp   and   desktops.   Once you click  that you will   see the screen below: In this window you will enter :   https://roxapps.jenzabarcloud.com/rdweb/feed/webfeed.aspx  Click N e xt. You will then see this scree n: Click Next again.  The next screen will show   a loading bar   which could take a little bit of time before it moves to the  login screen. At some   poin t you   should   see the screen below: I n this   window yo u can either enter RCC \\   or use your   email address. You are looking fo r   the D omain:  right above the Remember   me check box t o have a value.   In the screen shot above you   can see i t  says   rcc.  Once you enter the username and password click Ok .  You will see the screen below, this screen could be up for several minutes before it finishes: Once it finishes you should see the screen below: Click Finish.  You should now see   ROX RemoteApps connection in the Remote App and Desktop Connection s like  the screen shot below: Now that you   have   the connection added you can go   u nder your start menu and you should be   a  f older called ROX RemoteApps   which will have all the applications in it.   Below is what you should  be seeing at this point:  You can open   these apps and it will ask you   to log in again. You can pin these   applications   to your  ta sk bar if you want to   at this point.",
+    "token_count_estimate": 391
+}

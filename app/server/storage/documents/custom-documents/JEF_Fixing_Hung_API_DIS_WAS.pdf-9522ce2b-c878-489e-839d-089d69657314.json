@@ -1,0 +1,13 @@
+{
+    "id": "9522ce2b-c878-489e-839d-089d69657314",
+    "url": "file:///app/collector/hotdir/JEF_Fixing_Hung_API_DIS_WAS.pdf",
+    "title": "JEF_Fixing_Hung_API_DIS_WAS.pdf",
+    "docAuthor": "Microsoft Word",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:53:37 PM",
+    "wordCount": 338,
+    "pageContent": "This document describes how to fix a non - standard DIS / API / WAS issue where the normal steps fail to  solve the problem.  I first had to do this for Cowley Community College in 2017, then once again at Roxbury Community  College in March of 2018.   This is a less common problem, but it will happened again and I wanted to be  sure it is documented.  Hi, Bryan:  Thought I would summarize the DIS issue and corrective actions.  -   Something caused the DIS to fail and leave an “in process” record in the ICS_NET.DIS_ImportLog  table.   This resulted in the DIS thinking it was still running an import.   Batch was 6838.  -   Upon looking at JICS1 it appeared to be very unhealthy.   CPU running quite high and memory  utilization at 98%.  -   The system event log was full of error conditions.   Many of which indicated a potential  relationship between JICS1 degradation and the Budget Module.   [ To prove this, we could turn  off access to the JICS Budget module and see if the repeating event log errors cease. ]  -   Cleaned out the TW tables of anything related to the in - process batch.  -   Set last successful batch in EX UI configuration.  -   Cleaned out the ICS_NET.DIS_ImportLog of the hung processes (6838, 6837, 6836)  -   Restarted the DIS.  -   DIS Processed ~566 items.  -   Rechecked TW_API_PRS and TW_API_CST tables for the records we had deleted from batches  (6838, 6837, 6836) and saw that they had been reintroduced into a new batch.   Conclusion is  that it is safe to delete items from the TW_API transfer data tables.  Hope this brief documentation helps us fix it faster in the future.  Thanks  John",
+    "token_count_estimate": 406
+}

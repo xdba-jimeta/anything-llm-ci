@@ -1,0 +1,13 @@
+{
+    "id": "16b62a8b-2e49-4d26-869d-e5a590fccf37",
+    "url": "file:///app/collector/hotdir/Health Insurance Waiver process.pdf",
+    "title": "Health Insurance Waiver process.pdf",
+    "docAuthor": "Microsoft Word",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:40:41 PM",
+    "wordCount": 383,
+    "pageContent": "Health Insurance Waiver process   –   Jenzabar  Work Instruction by Jennifer Sherman, RCC Bursar’s Office  07/24/2024  The default is that   students   enrolled in more than 9 credits will be charge d   for health  insurance. Once the student completes the waiver at the insurance agency, the following  happens:  Pull report from Insurance Agency , Gallagher Health .  Then:  Go to Name Entity Input student ID number  Go to Biograph and click on USER (upper right hand corner) Update User Defined field 2A 2 with Term  Update User Defined field 5A2 with Year When charges are run on next cycle, this will remove the Health Insurance charge from the  student’s bill.  NOTE: On an annual basis, have   the   Jenzabar   Database Administrator   run   the   process to  remove data in User Defined Fields. Typically, you would do this in early/mid July BEFORE  running charges.  --   Performing the UPDATES to clear out the UDEF fields using a deterministic cursor loop  (specific ID Numbers).   This prevents table locking during the updates.  SET   NOCOUNT   ON ;  DECLARE   @ID_NUM   INT ;  DECLARE   vendor_cursor   CURSOR   FOR  SELECT   id_NUM   FROM   BIOGRAPH_MASTER   WHERE   udef_2a_2   is   not   null   or   udef_5a_2   is   not   null;  OPEN   vendor_cursor FETCH   NEXT   FROM   vendor_cursor  INTO   @ID_NUM  WHILE   @@FETCH_STATUS   =   0  BEGIN  PRINT   @ID_NUM ;  UPDATE   BIOGRAPH_MASTER   SET   udef_2a_2   =   NULL,   udef_5a_2   =   NULL   WHERE   ID_NUM   =   @ID_NUM  FETCH   NEXT   FROM   vendor_cursor  INTO   @ID_NUM  END  CLOSE   vendor_cursor ;  DEALLOCATE   vendor_cursor ;",
+    "token_count_estimate": 422
+}

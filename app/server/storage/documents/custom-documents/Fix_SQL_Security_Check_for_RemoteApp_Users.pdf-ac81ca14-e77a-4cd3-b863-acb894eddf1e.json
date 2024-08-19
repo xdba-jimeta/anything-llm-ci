@@ -1,0 +1,13 @@
+{
+    "id": "ac81ca14-e77a-4cd3-b863-acb894eddf1e",
+    "url": "file:///app/collector/hotdir/Fix_SQL_Security_Check_for_RemoteApp_Users.pdf",
+    "title": "Fix_SQL_Security_Check_for_RemoteApp_Users.pdf",
+    "docAuthor": "Microsoft® Word 2016",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:53:37 PM",
+    "wordCount": 457,
+    "pageContent": "Overview  This procedure enables administrators   to insert the correct   “ SQLSecurityCheck ” ,  Windows R egistry entry for   Jenzabar   remote app users on JZRCC - RDS1 machine.   This  is required for the Mail Merge features of the Jenzabar Communication Management  Module to function correctly.  Procedure  1.   Remote into JZRCC - RDS1.  2.   Using Windows Explorer, go to the folder C: \\ RCC_IT_Files.  3.   Locate the   SQLSecurityCheck.reg file.  4.   Right - Click on the file and choose Edit. This will open the file in Notepad.  5.   We are going to be changing the folder name and then saving the file. Before we  do that, we need to know the correct folder name for insertion. S o...  6.   Open RegEdit.  7.   Expand HKEY_LOCAL_MACHINE \\ SOFTWARE \\ Microsoft \\ Windows  NT \\ CurrentVersion \\ ProfileList.  8.   Select each folder individually and look at the 'ProfileImagePath' key to identify  the user profile associated with the selected folder: You are lookin g for the user name of the individual you wish to create the  SQLSecurityCheck registry entry for.   You will have to look through a lot of  ProfileList folders before you find the one you are looking for. In this example,  “cass” is the one we are looking fo r.  Note:  The folder name in the above example; it is   S - 1 - 5 - 21 - 2060139532 - 2050374463 - 2073913816 - 1157 .   This is  the text string you will need so that you can modify the .reg file.  9.   Copy the “ S - 1 - 5 - 21 - 2060139532 - 2050374463 - 2073913816 - 1157 ” folder name to  the   clipboard.   [Your folder name will be different]  10.   Go back to the .reg file and PASTE this correct folder name into the .reg file.  11.   Save the .reg file.  12.   Close the .reg file.  13.   Right - click on the .reg file and select the Open with Registry Editor option. 14.   Th e following warning will be displayed.  15.   Click the “Yes” button to continue .  The user should now be able to run their Jenzabar Mail Merge without any difficulty.  Ask the user to confirm that they are able to perform their Daily Procedure runs without  rec eiving the SQLSecurityCheck error.",
+    "token_count_estimate": 580
+}

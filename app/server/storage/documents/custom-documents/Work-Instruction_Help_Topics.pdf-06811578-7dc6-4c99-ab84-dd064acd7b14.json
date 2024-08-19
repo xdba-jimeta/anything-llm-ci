@@ -1,0 +1,13 @@
+{
+    "id": "06811578-7dc6-4c99-ab84-dd064acd7b14",
+    "url": "file:///app/collector/hotdir/Work Instruction_Help_Topics.pdf",
+    "title": "Work Instruction_Help_Topics.pdf",
+    "docAuthor": "Microsoft® Word for Microsoft 365",
+    "description": "No description found.",
+    "docSource": "pdf file uploaded by the user.",
+    "chunkSource": "",
+    "published": "7/28/2024, 12:46:30 PM",
+    "wordCount": 563,
+    "pageContent": "1   |   P a g e  Work Instruction  Jenzabar Help Topics   –   Discovery & Access  PURPOSE  T his work instruction covers how and why to access Jenzabar Help Topics.  Each Jenzabar window has Help Topics associated to include descriptive overviews, step - by - step   procedures, examples,  and detailed window - level descriptions for system administrators and users. This document provides step - by - step  instruction on how to access and utilize the Help Topics.  PRECONDITIONS  T he user must have a Jenzabar account. The user m ust know the   username   and password for their account. The user  must also be logged into Jenzabar to access Help Topics.  THE INITIAL ACCESS  To initialize access to the Help Topics each user must navigate to the Help tab and click on Help Topics. (See Figu re 1)  This will initiate an internet browser window popup (See Figure 2).  Figure 1   –   The Jenzabar EX Tool Bar  Figure 2   –   Untrusted Internet Site 2   |   P a g e  To resolve this   issue,   navigate to the settings   gear in the top   right - hand   corner and click on Internet op tions ( See   Figure  3).  Figure 3   –   Internet options  Choose the Security tab , click Trusted sites, then sites. ( See   Figure 4)  Figure 4   –   Trusted sites 3   |   P a g e  Trusted sites (See   Figure 5 )   will appear; the user will click Add and Close.   The user should then click OK in Internet  Options ( See   Figure 6).   The user then should refresh the browser window   (See Figure 7).  Figure 5   –   Add Trusted site   Figure 6   –   Internet O ptions (OK)  Figure 7   –   Refresh browser  U SING THE HELP TOPICS  The user   will have access to all Help Topics available in Jenzabar . By choosing Help   –   Help Topics   (See Figure 1)   in the  future the landing page will reflect   Figure 8.   Additionally, the user   h as the option to use the F1 key from any window  within the Jenzabar desktop. The Help Topics will then be displayed specifically for   the window currently in use   (See  Figure 9) .   Additional links for each tab, subtab   and button will be available as well as   How To   questions and R elated  T opics   for functionality. 4   |   P a g e  Figure 8   –   Help Topics home  Figure   9   –   Individual window   H elp   Topics  END OF WORK   INSTRUCTIONS",
+    "token_count_estimate": 588
+}

@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import System from "@/models/system";
 import PreLoader from "@/components/Preloader";
 import { OLLAMA_COMMON_URLS } from "@/utils/constants";
-import { CaretDown, CaretUp } from "@phosphor-icons/react";
+import { CaretDown, CaretUp, Info } from "@phosphor-icons/react";
 import useProviderEndpointAutoDiscovery from "@/hooks/useProviderEndpointAutoDiscovery";
+import { Tooltip } from "react-tooltip";
 
 export default function OllamaLLMOptions({ settings }) {
   const {
@@ -18,18 +19,16 @@ export default function OllamaLLMOptions({ settings }) {
     initialBasePath: settings?.OllamaLLMBasePath,
     ENDPOINTS: OLLAMA_COMMON_URLS,
   });
-
+  const [performanceMode, setPerformanceMode] = useState(
+    settings?.OllamaLLMPerformanceMode || "base"
+  );
   const [maxTokens, setMaxTokens] = useState(
     settings?.OllamaLLMTokenLimit || 4096
   );
 
-  const handleMaxTokensChange = (e) => {
-    setMaxTokens(Number(e.target.value));
-  };
-
   return (
-    <div className="w-full flex flex-col gap-y-4">
-      <div className="w-full flex items-start gap-4">
+    <div className="w-full flex flex-col gap-y-7">
+      <div className="w-full flex items-start gap-[36px] mt-1.5">
         <OllamaLLMModelSelection
           settings={settings}
           basePath={basePath.value}
@@ -41,12 +40,12 @@ export default function OllamaLLMOptions({ settings }) {
           <input
             type="number"
             name="OllamaLLMTokenLimit"
-            className="bg-zinc-900 text-white placeholder:text-white/20 text-sm rounded-lg focus:border-white block w-full p-2.5"
+            className="bg-zinc-900 text-white placeholder:text-white/20 text-sm rounded-lg focus:outline-primary-button active:outline-primary-button outline-none block w-full p-2.5"
             placeholder="4096"
             defaultChecked="4096"
             min={1}
             value={maxTokens}
-            onChange={handleMaxTokensChange}
+            onChange={(e) => setMaxTokens(Number(e.target.value))}
             onScroll={(e) => e.target.blur()}
             required={true}
             autoComplete="off"
@@ -64,7 +63,7 @@ export default function OllamaLLMOptions({ settings }) {
           }}
           className="text-white hover:text-white/70 flex items-center text-sm"
         >
-          {showAdvancedControls ? "Hide" : "Show"} Manual Endpoint Input
+          {showAdvancedControls ? "Hide" : "Show"} advanced settings
           {showAdvancedControls ? (
             <CaretUp size={14} className="ml-1" />
           ) : (
@@ -98,7 +97,7 @@ export default function OllamaLLMOptions({ settings }) {
             <input
               type="url"
               name="OllamaLLMBasePath"
-              className="bg-zinc-900 text-white placeholder:text-white/20 text-sm rounded-lg focus:border-white block w-full p-2.5"
+              className="bg-zinc-900 text-white placeholder:text-white/20 text-sm rounded-lg focus:outline-primary-button active:outline-primary-button outline-none block w-full p-2.5"
               placeholder="http://127.0.0.1:11434"
               value={basePathValue.value}
               required={true}
@@ -110,6 +109,80 @@ export default function OllamaLLMOptions({ settings }) {
             <p className="text-xs leading-[18px] font-base text-white text-opacity-60 mt-2">
               Enter the URL where Ollama is running.
             </p>
+          </div>
+
+          <div className="flex flex-col w-60">
+            <label className="text-white text-sm font-semibold block mb-2">
+              Ollama Keep Alive
+            </label>
+            <select
+              name="OllamaLLMKeepAliveSeconds"
+              required={true}
+              className="bg-zinc-900 border-gray-500 text-white text-sm rounded-lg block w-full p-2.5"
+              defaultValue={settings?.OllamaLLMKeepAliveSeconds ?? "300"}
+            >
+              <option value="0">No cache</option>
+              <option value="300">5 minutes</option>
+              <option value="3600">1 hour</option>
+              <option value="-1">Forever</option>
+            </select>
+            <p className="text-xs leading-[18px] font-base text-white text-opacity-60 mt-2">
+              Choose how long Ollama should keep your model in memory before
+              unloading.
+              <a
+                className="underline text-blue-300"
+                href="https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-keep-a-model-loaded-in-memory-or-make-it-unload-immediately"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Learn more &rarr;
+              </a>
+            </p>
+          </div>
+
+          <div className="flex flex-col w-60">
+            <label className="text-white text-sm font-semibold mb-2 flex items-center">
+              Performance Mode
+              <Info
+                size={16}
+                className="ml-2 text-white"
+                data-tooltip-id="performance-mode-tooltip"
+              />
+            </label>
+            <select
+              name="OllamaLLMPerformanceMode"
+              required={true}
+              className="bg-zinc-900 border-gray-500 text-white text-sm rounded-lg block w-full p-2.5"
+              value={performanceMode}
+              onChange={(e) => setPerformanceMode(e.target.value)}
+            >
+              <option value="base">Base (Default)</option>
+              <option value="maximum">Maximum</option>
+            </select>
+            <p className="text-xs leading-[18px] font-base text-white text-opacity-60 mt-2">
+              Choose the performance mode for the Ollama model.
+            </p>
+            <Tooltip
+              id="performance-mode-tooltip"
+              place="bottom"
+              className="tooltip !text-xs max-w-xs"
+            >
+              <p className="text-red-500">
+                <strong>Note:</strong> Only change this setting if you
+                understand its implications on performance and resource usage.
+              </p>
+              <br />
+              <p>
+                <strong>Base:</strong> Ollama automatically limits the context
+                to 2048 tokens, reducing VRAM usage. Suitable for most users.
+              </p>
+              <br />
+              <p>
+                <strong>Maximum:</strong> Uses the full context window (up to
+                Max Tokens). May increase VRAM usage significantly.
+              </p>
+            </Tooltip>
           </div>
         </div>
       </div>

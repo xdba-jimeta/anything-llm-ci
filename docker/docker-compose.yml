@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 version: '3.4'
+=======
+name: anythingllm
+>>>>>>> 3b6a2fd2fa0bbdfd74a8c29a4391bce2f4780f8a
 
 networks:
   anything-llm:
@@ -6,8 +10,7 @@ networks:
 
 services:
   anything-llm:
-    container_name: anything-llm
-    image: anything-llm:latest
+    container_name: anythingllm
     build:
       context: ../.
       dockerfile: ./docker/Dockerfile
